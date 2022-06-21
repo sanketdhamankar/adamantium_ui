@@ -1,0 +1,45 @@
+{
+  "_from": "@adamantium-ui/switch@^2.0.0",
+  "_id": "@adamantium-ui/switch@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-1Q43JgWiOFubqsdePyTcOye1cBU=",
+  "_location": "/@adamantium-ui/switch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@adamantium-ui/switch@^2.0.0",
+    "name": "@adamantium-ui/switch",
+    "escapedName": "@adamantium-ui%2fswitch",
+    "scope": "@adamantium-ui",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "/@adamantium-ui/core"
+  ],
+  "_resolved": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/@adamantium-ui/switch/-/@adamantium-ui/switch-2.0.0.tgz",
+  "_shasum": "d50e372605a2385b9baac75e3f24dc3b27b57015",
+  "_spec": "@adamantium-ui/switch@^2.0.0",
+  "_where": "C:\\Users\\sanket.d\\ipage\\mfe-foundation-businessservices\\node_modules\\@adamantium-ui\\core",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Custom switch component",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "311bb7b4d82e8ebb2e0b4905ace53c168c982448",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@adamantium-ui/switch",
+  "publishConfig": {
+    "registry": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack --mode=production --config ../../webpack.config.js",
+    "clean": "del-cli dist && del-cli node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.0"
+}
