@@ -1,0 +1,46 @@
+{
+  "_from": "@adamantium-ui/loading@^2.0.0",
+  "_id": "@adamantium-ui/loading@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-N2oukl096WB0Hym7UlqMY+BgnrE=",
+  "_location": "/@adamantium-ui/loading",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@adamantium-ui/loading@^2.0.0",
+    "name": "@adamantium-ui/loading",
+    "escapedName": "@adamantium-ui%2floading",
+    "scope": "@adamantium-ui",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "/@adamantium-ui/core",
+    "/@adamantium-ui/progress"
+  ],
+  "_resolved": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/@adamantium-ui/loading/-/@adamantium-ui/loading-2.0.0.tgz",
+  "_shasum": "376a2e925d3de960741f29bb525a8c63e0609eb1",
+  "_spec": "@adamantium-ui/loading@^2.0.0",
+  "_where": "C:\\Users\\sanket.d\\ipage\\mfe-foundation-businessservices\\node_modules\\@adamantium-ui\\core",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Basic layout element for all Loading",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "311bb7b4d82e8ebb2e0b4905ace53c168c982448",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@adamantium-ui/loading",
+  "publishConfig": {
+    "registry": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack --mode=production --config ../../webpack.config.js",
+    "clean": "del-cli dist && del-cli node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.0"
+}

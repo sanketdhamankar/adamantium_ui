@@ -1,0 +1,45 @@
+{
+  "_from": "@adamantium-ui/column@^2.0.0",
+  "_id": "@adamantium-ui/column@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-2mGWZ7bGgzBCjoJr1dh3vBCEWFc=",
+  "_location": "/@adamantium-ui/column",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@adamantium-ui/column@^2.0.0",
+    "name": "@adamantium-ui/column",
+    "escapedName": "@adamantium-ui%2fcolumn",
+    "scope": "@adamantium-ui",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "/@adamantium-ui/core"
+  ],
+  "_resolved": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/@adamantium-ui/column/-/@adamantium-ui/column-2.0.0.tgz",
+  "_shasum": "da619667b6c68330428e826bd5d877bc10845857",
+  "_spec": "@adamantium-ui/column@^2.0.0",
+  "_where": "C:\\Users\\sanket.d\\ipage\\mfe-foundation-businessservices\\node_modules\\@adamantium-ui\\core",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Basic layout element allows for column sizing",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "311bb7b4d82e8ebb2e0b4905ace53c168c982448",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@adamantium-ui/column",
+  "publishConfig": {
+    "registry": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack --mode=production --config ../../webpack.config.js",
+    "clean": "del-cli dist && del-cli node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.0"
+}

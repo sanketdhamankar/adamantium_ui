@@ -1,0 +1,49 @@
+{
+  "_from": "@adamantium-ui/phonenumber@^2.0.2",
+  "_id": "@adamantium-ui/phonenumber@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-I5lrYSeWreaiSea9+h67ZQwFUU0=",
+  "_location": "/@adamantium-ui/phonenumber",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@adamantium-ui/phonenumber@^2.0.2",
+    "name": "@adamantium-ui/phonenumber",
+    "escapedName": "@adamantium-ui%2fphonenumber",
+    "scope": "@adamantium-ui",
+    "rawSpec": "^2.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.2"
+  },
+  "_requiredBy": [
+    "/@adamantium-ui/core"
+  ],
+  "_resolved": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/@adamantium-ui/phonenumber/-/@adamantium-ui/phonenumber-2.0.2.tgz",
+  "_shasum": "23996b612796ade6a249e6bdfa1ebb650c05514d",
+  "_spec": "@adamantium-ui/phonenumber@^2.0.2",
+  "_where": "C:\\Users\\sanket.d\\ipage\\mfe-foundation-businessservices\\node_modules\\@adamantium-ui\\core",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@adamantium-ui/icon": "^2.0.1",
+    "@adamantium-ui/input": "^2.0.2"
+  },
+  "deprecated": false,
+  "description": "Molecule input for phone numbers",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "311bb7b4d82e8ebb2e0b4905ace53c168c982448",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@adamantium-ui/phonenumber",
+  "publishConfig": {
+    "registry": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack --mode=production --config ../../webpack.config.js",
+    "clean": "del-cli dist && del-cli node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.2"
+}

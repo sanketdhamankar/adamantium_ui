@@ -1,0 +1,78 @@
+{
+  "_from": "@adamantium-ui/core@^2.0.0",
+  "_id": "@adamantium-ui/core@2.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-wPRHB74ZpSszSAoPvMot5y9vA2U=",
+  "_location": "/@adamantium-ui/core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@adamantium-ui/core@^2.0.0",
+    "name": "@adamantium-ui/core",
+    "escapedName": "@adamantium-ui%2fcore",
+    "scope": "@adamantium-ui",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/@adamantium-ui/core/-/@adamantium-ui/core-2.0.3.tgz",
+  "_shasum": "c0f44707be19a52b33480a0fbcca2de72f6f0365",
+  "_spec": "@adamantium-ui/core@^2.0.0",
+  "_where": "C:\\Users\\sanket.d\\ipage\\mfe-foundation-businessservices",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@adamantium-ui/button": "^2.0.1",
+    "@adamantium-ui/buttongroup": "^2.0.1",
+    "@adamantium-ui/card": "^2.1.0",
+    "@adamantium-ui/checkbox": "^2.0.0",
+    "@adamantium-ui/collapsible": "^2.0.1",
+    "@adamantium-ui/column": "^2.0.0",
+    "@adamantium-ui/container": "^2.0.0",
+    "@adamantium-ui/datepicker": "^2.0.1",
+    "@adamantium-ui/dropdownmenu": "^2.0.2",
+    "@adamantium-ui/icon": "^2.0.1",
+    "@adamantium-ui/input": "^2.0.2",
+    "@adamantium-ui/loading": "^2.0.0",
+    "@adamantium-ui/modal": "^2.1.0",
+    "@adamantium-ui/phonenumber": "^2.0.2",
+    "@adamantium-ui/progress": "^2.0.0",
+    "@adamantium-ui/radio": "^2.0.0",
+    "@adamantium-ui/radiogroup": "^2.0.0",
+    "@adamantium-ui/select": "^2.0.1",
+    "@adamantium-ui/stepper": "^2.0.2",
+    "@adamantium-ui/switch": "^2.0.0",
+    "@adamantium-ui/tag": "^2.0.1",
+    "@adamantium-ui/text": "^2.1.0",
+    "@adamantium-ui/themeprovider": "^2.0.0",
+    "@adamantium-ui/themes": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Adamantium main library",
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "311bb7b4d82e8ebb2e0b4905ace53c168c982448",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@adamantium-ui/core",
+  "peerDependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "version": "2.0.3"
+}

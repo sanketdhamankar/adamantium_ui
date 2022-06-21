@@ -1,0 +1,63 @@
+{
+  "_from": "@adamantium-ui/icon@^2.0.1",
+  "_id": "@adamantium-ui/icon@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-/1q8f4+9YI2PTy8zKTa1usZfJxg=",
+  "_location": "/@adamantium-ui/icon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@adamantium-ui/icon@^2.0.1",
+    "name": "@adamantium-ui/icon",
+    "escapedName": "@adamantium-ui%2ficon",
+    "scope": "@adamantium-ui",
+    "rawSpec": "^2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.1"
+  },
+  "_requiredBy": [
+    "/@adamantium-ui/button",
+    "/@adamantium-ui/buttongroup",
+    "/@adamantium-ui/card",
+    "/@adamantium-ui/collapsible",
+    "/@adamantium-ui/core",
+    "/@adamantium-ui/datepicker",
+    "/@adamantium-ui/dropdownmenu",
+    "/@adamantium-ui/input",
+    "/@adamantium-ui/modal",
+    "/@adamantium-ui/phonenumber",
+    "/@adamantium-ui/select",
+    "/@adamantium-ui/tag"
+  ],
+  "_resolved": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/@adamantium-ui/icon/-/@adamantium-ui/icon-2.0.1.tgz",
+  "_shasum": "ff5abc7f8fbd608d8f4f2f332936b5bac65f2718",
+  "_spec": "@adamantium-ui/icon@^2.0.1",
+  "_where": "C:\\Users\\sanket.d\\ipage\\mfe-foundation-businessservices\\node_modules\\@adamantium-ui\\core",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "material-icons": "^0.3.1"
+  },
+  "deprecated": false,
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "311bb7b4d82e8ebb2e0b4905ace53c168c982448",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@adamantium-ui/icon",
+  "publishConfig": {
+    "registry": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack --mode=production --config ../../webpack.config.js",
+    "clean": "del-cli dist && del-cli node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.1"
+}

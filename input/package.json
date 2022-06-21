@@ -1,0 +1,49 @@
+{
+  "_from": "@adamantium-ui/input@^2.0.2",
+  "_id": "@adamantium-ui/input@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-2ZdihXbQHFSPyL5TPLH/4UVEu0w=",
+  "_location": "/@adamantium-ui/input",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@adamantium-ui/input@^2.0.2",
+    "name": "@adamantium-ui/input",
+    "escapedName": "@adamantium-ui%2finput",
+    "scope": "@adamantium-ui",
+    "rawSpec": "^2.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.2"
+  },
+  "_requiredBy": [
+    "/@adamantium-ui/core",
+    "/@adamantium-ui/phonenumber"
+  ],
+  "_resolved": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/@adamantium-ui/input/-/@adamantium-ui/input-2.0.2.tgz",
+  "_shasum": "d997628576d01c548fc8be533cb1ffe14544bb4c",
+  "_spec": "@adamantium-ui/input@^2.0.2",
+  "_where": "C:\\Users\\sanket.d\\ipage\\mfe-foundation-businessservices\\node_modules\\@adamantium-ui\\core",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@adamantium-ui/icon": "^2.0.1"
+  },
+  "deprecated": false,
+  "description": "Basic layout element for all Input Fields",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "311bb7b4d82e8ebb2e0b4905ace53c168c982448",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@adamantium-ui/input",
+  "publishConfig": {
+    "registry": "https://artifactory.svcs.endurance.com/artifactory/api/npm/eig-npm-stage/"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack --mode=production --config ../../webpack.config.js",
+    "clean": "del-cli dist && del-cli node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.2"
+}
